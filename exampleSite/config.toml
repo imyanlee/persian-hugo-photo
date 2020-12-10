@@ -1,0 +1,78 @@
+baseURL = "https://jeanrueda.eu"
+disqusShortname = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "5"
+theme = "persian"
+title = "Persian"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.main]]
+URL = "/"
+name = "Home"
+weight = 1
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[menu.main]]
+URL = "categories/nature/"
+name = "Category"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+weight = 5
+[outputs]
+home = ["HTML", "RSS", "json"]
+[params]
+author = "Themefisher"
+contact_form_action = "#"
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+description = "This is meta description"
+logo = "images/logo.png"
+search = true
+[params.cookies]
+enable = true
+expire_days = 2
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[params.preloader]
+enable = true
+preloader = ""
+[[params.social]]
+icon = "ti-facebook"
+link = "#"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
+title = "twitter"
+[[params.social]]
+icon = "ti-instagram"
+link = "#"
+title = "instagram"
+[[params.social]]
+icon = "ti-github"
+link = "#"
+title = "github"
+[[params.social]]
+icon = "ti-linkedin"
+link = "#"
+title = "linkedin"
